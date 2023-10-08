@@ -55,12 +55,6 @@ a {
   margin-bottom: 2rem !important; }
 
 
-
-.display-5 {
-  font-size: 2rem;
-  font-weight: 300;
-  line-height: 1.5; }
-
 .bg-light {
   background-color: #f8faff !important; }
 
@@ -405,6 +399,7 @@ header {
   @media (min-width: 768px) {
     .my-md-lg {
       margin-top: 4em !important; }
+    }
 /*end swiper css*/
 .jumbotron {
   width: 100%;
@@ -510,9 +505,6 @@ header {
 .hero-copy .container {
   max-width: 40rem; }
 
-[class^="display"] {
-  font-family: "Product Sans", Helvetica, Arial, serif;
-  font-weight: 700; }
 
 @media (max-width: 991px) {
   .display-3 {
@@ -988,4 +980,62 @@ a.title:hover img {
   margin-top: 3em;
   padding-top: 2em; }
 
+  /*-----------------------------------
+   * INSTRUCTION
+   *-----------------------------------*/
+   .images_instruction {
+     width: auto;
+     height: 100%;
+   }
+   .screnshot_width {
+     max-height: 600px;
+     transition: all .3s;
+     padding: 60px;
+   }
+   .screnshot_width:hover {
+     transform: scale(1.1);
+   }
+   .divided_line {
+     border-top: 1px solid #7642FF;
+     margin: 20px 60px;
+   }
+   .scroll_down img{
+     width: 20px;
+     height: auto;
+     padding-top: 40px;
+   }
+   .step_description {
+     max-width: 500px;
+   }
+   @media (max-width: 768px) {
+     .divided_line {
+       margin: 20px;
+     }
+   }
+
+   /*-----------------------------------
+    * INSTRUCTION CATALOG
+    *-----------------------------------*/
+   .catalog_img {
+     width: 100%;
+     height: auto;
+   }
+   .catalog_name {
+     padding-bottom: 16px;
+   }
+   .catalog_frame {
+     text-align: center;
+     border-radius: 5px;
+
+     padding: 30px;
+     margin: 30px;
+     transition: all .3s;
+   }
+   .catalog_frame:hover {
+     transform: scale(1.1);
+     border: 1px solid #7642FF;
+   }
+   .nopad {
+     padding: 0;
+   }
 /*# sourceMappingURL=style.css.map */
