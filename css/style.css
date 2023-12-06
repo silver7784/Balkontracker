@@ -899,7 +899,9 @@ iframe {
   .footer-links a:hover {
     text-decoration: none;
     color: #7642FF; }
-
+.lang {
+  padding: 20px 10px;
+}
 /*-----------------------------------
  * BLOG
  *-----------------------------------*/
