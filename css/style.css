@@ -10,7 +10,7 @@ h4,
 h5,
 h6 {
   font-family: "Product Sans", Helvetica, Arial, serif;
-  line-height: 1.5; }
+ }
 
 a {
   color: #7642FF;
@@ -984,20 +984,20 @@ a.title:hover img {
    * INSTRUCTION
    *-----------------------------------*/
    .images_instruction {
-     width: auto;
-     height: 100%;
+     width: 100%;
+     height: auto;
    }
    .screnshot_width {
-     max-height: 600px;
+     max-width: 70%;
      transition: all .3s;
-     padding: 60px;
+     padding: 20px 0;
    }
-   .screnshot_width:hover {
+   /* .screnshot_width:hover {
      transform: scale(1.1);
-   }
+   } */
    .divided_line {
      border-top: 1px solid #7642FF;
-     margin: 20px 60px;
+     margin: 20px 0;
    }
    .scroll_down img{
      width: 20px;
@@ -1008,8 +1008,8 @@ a.title:hover img {
      max-width: 500px;
    }
    @media (max-width: 768px) {
-     .divided_line {
-       margin: 20px;
+     .screnshot_width {
+       max-width: 100%;
      }
    }
 
