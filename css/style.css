@@ -900,7 +900,17 @@ iframe {
     text-decoration: none;
     color: #7642FF; }
 .lang {
-  padding: 20px 10px;
+  margin: auto;
+  padding: 0 20px;
+}
+.lang a {
+  padding: 8px;
+}
+
+@media (max-width: 768px) {
+.lang {
+    padding: 10px 20px;
+}
 }
 /*-----------------------------------
  * BLOG
