@@ -76,13 +76,17 @@
                 <div class="collapse navbar-collapse" id="site-nav">
                     <ul class="navbar-nav text-sm-left ml-auto">
                         <li class="nav-item">
-                            <a class="btn align-middle btn-primary my-2 my-lg-0" href="instruction_catalog.html">Installationsanleitung</a>
+                            <a class="btn align-middle btn-primary my-2 my-lg-0" href="instruction_catalog.html">Installationsanweisungen</a>
                         </li>
                         <li class="nav-item">
                             <a class="btn align-middle btn-primary my-2 my-lg-0" href="https://ires-b2b.eu" target="_blank">B2B-Plattform</a>
                         </li>
                         <li class="nav-item">
                             <a class="btn align-middle btn-primary my-2 my-lg-0" href="https://shop.balkontracker.de" target="_blank">Online Shop</a>
+                        </li>
+                        <li class="nav-item lang">
+                          <a href="index_en.html">EN</a> |
+                          <a>DE</a>
                         </li>
                     </ul>
 
@@ -145,9 +149,8 @@
                             <h2 class="mt-0">Intelligente Lösung</h2>
                             <p>
                               Der Smart balkontracker ist eine aus Edelstahl Skelettbau, einem embedded Mikrocontroller und 2 Linearaktuator.
-                              Das System kann auf allen Arten von Balkonen Zäunen installiert werden.
-                              Der Smart balkontracker ermöglicht die Installation von Solarmodulen unterschiedlicher Größe und Leistung.
-                              Für Installationsanweisungen macht die Installation schwierig und zeitaufwändig, und jeder kann unser smart balkontracker installieren.
+                              Das System kann auf allen Arten von Balkonen Zäunen installiert werden.  Der Smart balkontracker ermöglicht die Installation von Solarmodulen unterschiedlicher Größe und Leistung.
+                              Die Installationsanweisungen  ist sehr einfach zu erlernen, sodass jeder unseren Smart Tracker auf dem Balkon installieren kann.
                             </p>
                         </div>
                     </div>
@@ -183,7 +186,7 @@
                 <div class="col-sm-6 text-center">
                     <div class="browser-window limit-height my-5 mr-0 mr-sm-5">
                         <div class="content">
-                            <img class="images_on_page" src="images/003.jpg" alt="image">
+                            <img class="images_on_page" src="images/003a.jpg" alt="image">
                         </div>
                     </div>
                 </div>
@@ -222,7 +225,7 @@
                         <!-- // end .di -->
                         <div class="media-body text-center">
                             <div class="color-icon mb-3"> <i class="pe-7s-cloud pe-3x"></i> </div>
-                            <h5 class="mt-0">Anschließen und Konfigurieren des Telefons"</h5>
+                            <h5 class="mt-0">Anschließen und Konfigurieren des Telefons</h5>
                             <p>
                               Nachdem das smart balkontracker mit dem Wi-fi verbunden wurde, führt es alle weiteren Arbeiten automatisch aus.
                             </p>
@@ -279,7 +282,7 @@ balkonkraftwerk.
                             <div class="media-icon mb-3"> <i class="pe-7s-help2 pe-3x"></i> </div>
                             <h2 class="mt-0">Helpdesk</h2>
                             <p>
-                              Sie können den Smart balkontracker mit Hilfe unserer Installationsanleitung installieren und anschließen.
+                              Sie können den Smart balkontracker mit Hilfe unserer Installationsanweisungen installieren und anschließen.
 Wenn Sie Fragen haben, kontaktieren Sie uns über die mobile App.
                             </p>
                         </div>
@@ -321,20 +324,22 @@ Wenn Sie Fragen haben, kontaktieren Sie uns über die mobile App.
               <div class="col-12 col-sm-6">
                 <div class="row justify-content-md-center">
                     <div class="col col-md-12">
-                        <form method="post" action="send_form.php">
+
+                        <form id="contactForm">
                             <div class="form-group">
-                                <input type="text" name="Name" id="Name" class="form-control" placeholder="Vollständiger Name" required>
+                              <input type="text" name="Name" id="name" class="form-control" placeholder="Vollständiger Name" required>
                             </div>
                             <div class="form-group">
-                                <input type="email" name="Email" id="Email" class="form-control" placeholder="E-Mail-Addresse" required>
+                                <input type="email" name="Email" id="email" class="form-control" placeholder="E-Mail-Addresse" required>
                             </div>
                             <div class="form-group">
-                                <input type="text" name="Message" id="Message" class="form-control" placeholder="Nachricht" required>
+                                <input type="text" name="Message" id="message" class="form-control" placeholder="Nachricht" required>
                             </div>
                             <div class="form-group">
-                                <button type="submit" value="submit"  class="btn btn-xl btn-block btn-primary">Nachricht senden</button>
+                                <button type="button" onclick="submitForm()" class="btn btn-xl btn-block btn-primary">Nachricht senden</button>
                             </div>
                         </form>
+
                     </div>
                 </div>
               </div>
@@ -351,16 +356,21 @@ Wenn Sie Fragen haben, kontaktieren Sie uns über die mobile App.
                 <div class="col-sm-4">
                   <h3 class="gradient-mask">Balkontracker</h3>
                     <p class="mt-3 ml-1 text-muted">
-                      IRES Fotowoltaika Sp. z o.o.
-                      <br>Ul. 3 Maja 22/2C, 40-096,
+                      IRES Fotowoltaika Sp. Z. O. O.
+                      <br>Straße 3 Maja 22/2C, 40-096,
                       <br>Katowice, Poland
                     </p>
-                    <p class="ml-1"><a href="mailto:info@ires-fotowoltaika.pl" target="_blank">info@ires-fotowoltaika.pl</a></p>
+                    <p class="mt-3 ml-1 text-muted">
+                      Lieferadress:
+                      <br>Straße Bernardyńska 1,
+                      <br>Bytom, Polen
+                    </p>
+                    <p class="ml-1"><a href="mailto:info@balkontracker.de" target="_blank">info@balkontracker.de</a></p>
                     <!-- // end .lead -->
                 </div>
                 <!-- // end .col-sm-3 -->
                 <div class="col-sm-4">
-                  <h5>Laden Sie unsere Apps herunter</h5>
+                  <h5>Unsere Apps</h5>
                   <p class="download_buttons">
                     <a href="#" target="_blank"><img class="store_button" src="images/app_store.svg" alt="Download from App Store"></a>
                     <a href="https://play.google.com/store/apps/details?id=de.balkontracker.app&pcampaignid=web_share" target="_blank"><img class="store_button" src="images/google_play.svg" alt="Download from Google Play"></a>
@@ -378,10 +388,6 @@ Wenn Sie Fragen haben, kontaktieren Sie uns über die mobile App.
                 <!-- // end .col-sm-3 -->
                 <div class="col-sm-2">
                     <a href="#home" class="btn btn-sm btn-outline-primary ml-1">Nach oben scrollen</a>
-                    <p class="lang">
-                      <a href="index_en.html">EN</a> |
-                      <a href="index.html">DE</a>
-                    </p>
                 </div>
                 <!-- // end .col-sm-3 -->
             </div>
@@ -390,7 +396,7 @@ Wenn Sie Fragen haben, kontaktieren Sie uns über die mobile App.
                           <script type="text/javascript">
                           document.write(new Date().getFullYear());
                           </script>
-                          Alle Rechte vorbehalten. Smarte Balkontracker
+                          Alle Rechte vorbehalten. Smart Balkontracker
                       </small></div>
         </div>
         <!-- // end .container -->
@@ -410,6 +416,26 @@ Wenn Sie Fragen haben, kontaktieren Sie uns über die mobile App.
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-56XKKN1T8J');
+    </script>
+    <script>
+      function submitForm() {
+        var form = document.getElementById('contactForm');
+        var formData = new FormData(form);
+
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', 'process_form.php', true);
+
+        xhr.onload = function() {
+            if (xhr.status === 200) {
+                alert('Form submitted successfully!');
+                form.reset();
+            } else {
+                alert('Error submitting form. Please try again.');
+            }
+        };
+
+        xhr.send(formData);
+      }
     </script>
     <!-- end Google tag (gtag.js) -->
 </body>
