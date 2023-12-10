@@ -205,10 +205,6 @@ a {
   .mar_mob {
   margin-top: 3em; }
 }
-@media (max-width: 767px) {
-  .mar_mob2 {
-  margin-bottom: 5em; }
-}
 .store_button {
   max-width: 7vw;
   height: auto;
@@ -995,21 +991,30 @@ a.title:hover img {
   /*-----------------------------------
    * INSTRUCTION
    *-----------------------------------*/
+   .cont-padb {
+     padding-bottom: 120px;
+   }
    .images_instruction {
      width: 100%;
      height: auto;
    }
    .screnshot_width {
-     max-width: 70%;
+     max-width: 100%;
      transition: all .3s;
-     padding: 20px 0;
+     padding: 15px;
    }
-   /* .screnshot_width:hover {
-     transform: scale(1.1);
-   } */
+   .screnshot_width p {
+     padding-top: 20px;
+     margin: 0;
+   }
+   .img-flex {
+     display: flex;
+     flex-direction: row;
+     padding: 0;
+   }
    .divided_line {
      border-top: 1px solid #7642FF;
-     margin: 20px 0;
+     margin: 40px 0;
    }
    .scroll_down img{
      width: 20px;
@@ -1017,11 +1022,18 @@ a.title:hover img {
      padding-top: 40px;
    }
    .step_description {
-     max-width: 500px;
+     max-width: 800px;
    }
+
    @media (max-width: 768px) {
      .screnshot_width {
        max-width: 100%;
+     }
+     .img-flex {
+       flex-direction: column;
+     }
+     .cont-padb {
+       padding-bottom: 80px;
      }
    }
 
