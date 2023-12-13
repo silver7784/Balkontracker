@@ -206,7 +206,7 @@ a {
   margin-top: 3em; }
 }
 .store_button {
-  max-width: 7vw;
+  max-width: 40%;
   height: auto;
   margin-right: 1em;
 }
@@ -786,6 +786,10 @@ iframe {
 
 .color-icon i {
   color: #7642FF; }
+
+  .text_feature {
+    text-align: justify;
+  }
 
 /*-----------------------------------
  * CARDS

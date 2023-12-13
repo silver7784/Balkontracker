@@ -1,7 +1,7 @@
 <?php
 
 $EmailFrom = "Balkontracker";
-$EmailTo = "info@ires-fotowoltaika.pl";
+$EmailTo = "info@balkontracker.de";
 $Subject = "Nice & Simple Contact Form by CSS-Tricks";
 $Name = Trim(stripslashes($_POST['Name']));
 $Tel = Trim(stripslashes($_POST['Tel']));
